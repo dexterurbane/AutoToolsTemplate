@@ -1,0 +1,43 @@
+Indentation is three spaces, no tabs.
+
+Lines are max 80 columns.
+
+Types are UpperCamelCase.
+
+Typedefs are UpperCamelCase.
+
+Functions are lowerCamelCase(...).
+
+Member variables are lowerCamelCase_
+
+Variables are lowerCamelCase
+
+Arguments are lowerCamelCase.
+
+Acronyms: e.g. ABC => AbstractAbcClass.
+
+Mathematical variable names e.g. R0, r0 may often be distinguished by their
+case. Thus, don't use the usual CamelCase naming rules for these - instead,
+keep the original case.
+
+Global constants are named as gGlobalConstant.
+
+Static (file scope, in the C sense) variables are named as sVariable.
+
+Getters and setters are getProperty() and setProperty(...).
+
+Braces start on a new line e.g.  
+Function F() 
+{ 
+   ...  
+}
+
+Filenames for classes start with a capital, like the class.  ClassName.h,
+ClassName.cc
+
+Pass and return by reference, except where you *have to* use a pointer.
+
+Errors etc. are called through the error(), warning(), message(), debug()
+funcntions, declared in Output.h.  
+
+Floating point generally uses double. Integer types are generally int.
